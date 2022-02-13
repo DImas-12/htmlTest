@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>HTMLCSS</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="Main.css" />
+  </head>
+
+  <body>
+    <div class="ContainerHeader">
+      <div class="Head">
+        <h1>Simple Pricing!</h1>
+        <div style="color: #8f8f8f; margin-top: 30px">
+          <small
+            >The Most Advanced customer tools with a simple <br />and afordable
+            pricing. and you can always try for 30 day <br />free</small
+          >
+        </div>
+      </div>
+    </div>
+
+    <div class="Container">
+      <div class="containerCard">
+        <div class="Card">
+          <div class="CardHeader">
+            <h3>BASIC</h3>
+          </div>
+          <div class="priceCard">
+            <p>$</p>
+            <p style="font-size: 50px">4</p>
+            <p style="align-self: flex-end">/month</p>
+          </div>
+          <span class="Underline"></span>
+          <div style="margin-left: 20px">
+            <p>10 Project</p>
+            <p>10 Page</p>
+            <p>100 Mb Disk Space</p>
+            <button class="Button" onclick="Alert()">BUY NOW</button>
+          </div>
+        </div>
+        <div class="Card">
+          <div class="CardHeader">
+            <h3>STANDARD</h3>
+          </div>
+          <div class="priceCard">
+            <p>$</p>
+            <p style="font-size: 50px">8</p>
+            <p style="align-self: flex-end">/month</p>
+          </div>
+          <span class="Underline"></span>
+          <div style="margin-left: 20px">
+            <p>20 Project</p>
+            <p>20 Page</p>
+            <p>200 Mb Disk Space</p>
+          </div>
+          <button class="Button" onclick="Alert()">BUY NOW</button>
+        </div>
+        <div class="Card">
+          <div class="CardHeader">
+            <h3>ADVANCED</h3>
+          </div>
+          <div class="priceCard">
+            <p>$</p>
+            <p style="font-size: 50px">12</p>
+            <p style="align-self: flex-end">/month</p>
+          </div>
+          <span class="Underline"></span>
+          <div style="margin-left: 20px">
+            <p>40 Project</p>
+            <p>40 Page</p>
+            <p>500 Mb Disk Space</p>
+          </div>
+          <button class="Button" onclick="Alert()">BUY NOW</button>
+        </div>
+      </div>
+      <div class="Footer1">
+        <p>Frequently Asked Question</p>
+      </div>
+
+      <div class="Footer">
+        <div style="margin-top: 30px; margin-left: 20px">
+          <p style="font-size: 20px">How does free trial work</p>
+          <div style="color: #8f8f8f; margin-top: 20px">
+            <small
+              >Lorem ipsum dolor sit amet,Consectur adipiscing <br />
+              elit.Curbitura diam nec augue tincidunt <br />
+              accumsan. In dignisim laoreet ipsum eu interdum</small
+            >
+          </div>
+        </div>
+        <div style="margin-top: 30px; margin-right: 20px">
+          <p style="font-size: 20px">Can I cancel any time?</p>
+          <div style="color: #8f8f8f; margin-top: 20px">
+            <small style="color: #8f8f8f"
+              >Aliquam erat volupat. Etiam luctus massa ex, at <br />
+              tempus tellus blandit quis. Sed quis neque tellus. <br />
+              Donec maximus ipsum in malesuada hendrit</small
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="" async defer></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    <script>
+      function Alert() {
+        swal("Success", "", "success");
+      }
+    </script>
+  </body>
+</html>
